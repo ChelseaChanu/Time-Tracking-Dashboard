@@ -222,14 +222,15 @@ main{
     .main-conatiner{
         display: grid;
         grid-template-columns:repeat(1,550px);
-        grid-template-rows: 200px 200px repeat(6,300px);
+        grid-template-rows: 80px 200px repeat(6,260px);
         grid-gap: 2rem;
     }
 
     .image{
         display: flex;
-        gap: 3rem;
+        gap: 1.5rem;
         align-items: center;
+        height: 9rem;
     }
 
     .image img{
@@ -249,19 +250,19 @@ main{
     }
 
     .template{
-        padding: 14px 30px;
+        padding: 14px 40px;
         height: 75%;
-        width: 89.5%;
+        width: 85.5%;
     }
 
     .title{
-        margin: 2rem 2rem 1rem;
+        margin: 2rem 2rem 0;
     }
 
     .record{
         display: flex;
         justify-content: space-between;
-        margin: 3rem 2rem 0;
+        margin: 1rem 2rem 0;
     }
 
     .icon, .icon-1{
@@ -285,14 +286,16 @@ main{
     .main-conatiner{
         display: grid;
         grid-template-columns:repeat(1,340px);
-        grid-template-rows: 200px 200px repeat(6,340px);
+        grid-template-rows: 15px 200px repeat(6,240px);
         grid-gap: 2rem;
     }
 
     .image{
         display: flex;
-        gap: 3rem;
+        gap: 1rem;
         align-items: center;
+        padding: 1rem;
+        height: 120px;
     }
 
     .image img{
@@ -304,6 +307,15 @@ main{
         height: 120px;
     }
 
+    .name p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .name h1{
+        font-size: 1.7rem;
+    }
+
     .routine{
         display: flex;
         flex-direction: row;
@@ -312,9 +324,9 @@ main{
     }
 
     .template{
-        padding: 14px 30px;
+        padding: 14px 15px;
         height: 77%;
-        width: 82.5%;
+        width: 91.5%;
     }
 
     .template-1{
@@ -330,13 +342,13 @@ main{
     }
 
     .title{
-        margin: 2rem 1rem 1rem;
+        margin: 1rem 1rem 0;
     }
 
     .record{
         display: flex;
         justify-content: space-between;
-        margin: 3rem 1rem 0;
+        margin: 1rem 1rem 0;
     }
 
     .icon, .icon-1 {
@@ -345,5 +357,9 @@ main{
 
     .previous{
         margin-top: 20px;
+    }
+
+    .current{
+        font-size: 2.5rem;
     }
 }
